@@ -28,7 +28,8 @@
 			var table = $('#korvais').DataTable( {
         		"processing": true,
         		"serverSide": false,
-        		"ajax": "response.php"
+        		"ajax": "response.php",
+				"scrollX": true
     		});
 		});
 	</script>
